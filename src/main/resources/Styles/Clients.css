@@ -1,0 +1,22 @@
+
+.clients_container {
+    -fx-background-color: #EEEEEE;
+}
+
+.clients_container Text {
+    -fx-fill: #555555;
+    -fx-font-size: 1.8em;
+    -fx-font-family: "Calibri Light";
+}
+
+.clients_container .list-view {
+    -fx-background-color: #EEEEEE;
+    -fx-border-width: 0;
+}
+
+.clients_container .list-cell {
+    -fx-background-color: #EEEEEE;
+    -fx-padding: 10 0 10 0;
+}
+
+

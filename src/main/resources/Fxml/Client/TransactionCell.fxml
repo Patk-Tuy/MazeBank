@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane prefHeight="60.0" prefWidth="550.0" styleClass="cell_container" stylesheets="@../../Styles/TransactionCell.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <VBox prefHeight="50.0" prefWidth="50.0" styleClass="trans_icon_container" AnchorPane.bottomAnchor="4.600000000000001" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="5.0">
+      <FontAwesomeIconView fx:id="in_icon" glyphName="LONG_ARROW_RIGHT" size="17" />
+      <FontAwesomeIconView fx:id="out_icon" glyphName="LONG_ARROW_LEFT" size="17" />
+   </VBox>
+   <Label fx:id="trans_date_lbl" layoutX="64.0" layoutY="22.0" styleClass="trans_date_lbl" text="2022-07-08" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="22.0" />
+   <Label fx:id="sender_lbl" layoutX="213.0" layoutY="22.0" styleClass="trans_pAddress_lbl" text="Patrick" AnchorPane.leftAnchor="200.0" AnchorPane.topAnchor="22.0" />
+   <Line endY="20.0" layoutX="307.0" layoutY="18.0" startY="2.799999237060547" AnchorPane.bottomAnchor="21.5" AnchorPane.leftAnchor="300.0" />
+   <Label fx:id="receiver_lbl" layoutX="358.0" layoutY="22.0" styleClass="trans_pAddress_lbl" text="Benjamin" AnchorPane.leftAnchor="358.0" AnchorPane.topAnchor="22.0" />
+   <Label fx:id="amount_lbl" layoutX="487.0" layoutY="16.0" styleClass="trans_amount_lbl" text="2000" AnchorPane.rightAnchor="14" AnchorPane.topAnchor="16.0">
+      <graphic>
+         <FontAwesomeIconView glyphName="DOLLAR" />
+      </graphic>
+   </Label>
+   <Button fx:id="message_btn" layoutX="442.0" layoutY="18.0" mnemonicParsing="false" styleClass="message_btn" AnchorPane.rightAnchor="80.0" AnchorPane.topAnchor="18.0">
+      <graphic>
+         <FontAwesomeIconView glyphName="BELL" size="14" />
+      </graphic>
+   </Button>
+</AnchorPane>

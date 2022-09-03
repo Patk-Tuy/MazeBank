@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="750.0" prefWidth="850.0" styleClass="transactions_container"
+            stylesheets="@../../Styles/Transactions.css" xmlns="http://javafx.com/javafx/18"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.jmc.mazebank.Controllers.Client.TransactionsController">
+   <Text layoutX="349.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Transactions"
+         AnchorPane.leftAnchor="349.0" AnchorPane.topAnchor="14.0"/>
+   <ListView fx:id="transactions_listview" layoutX="14.0" layoutY="84.0" prefHeight="640.0" prefWidth="830.0"
+             AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="100.0"/>
+</AnchorPane>

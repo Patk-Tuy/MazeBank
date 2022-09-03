@@ -1,0 +1,45 @@
+
+.client_cell_container {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 10;
+    -fx-effect: dropshadow(three-pass-box, #DDDDDD, 5, 0, 0, 7);
+}
+
+.client_cell_container FontAwesomeIconView {
+    -fx-fill: #132A13;
+}
+
+.client_cell_container HBox {
+    -fx-spacing: 15;
+    -fx-alignment: Center_left;
+}
+
+.client_cell_container HBox Label {
+    -fx-text-fill: #444444;
+    -fx-font-family: "Calibri Light";
+    -fx-font-size: 1.5em;
+}
+
+.acc_display_lbl {
+    -fx-font-family: Calibri;
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+}
+
+.delete_btn {
+    -fx-text-fill: #FFFFFF;
+    -fx-background-color: #FF0000;
+}
+
+.delete_btn FontAwesomeIconView {
+    -fx-fill: #FFFFFF;
+}
+
+.delete_btn:hover {
+    -fx-cursor: hand;
+}
+
+
+
+
+
